@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="width: 370px; height: auto;background-color: rgb(145, 149, 150);">
+        <h1 style="color: aquamarine;text-align: center;background-color: black;">რეგისტრაცია</h1>
+        <form>
+            <div>
+                <label for="name" style="color: aquamarine;">სახელი</label>
+                <input type="text" id="name" placeholder="სახელი">
+            </div>
+            <div>
+                <label for="lastname" style="color: aquamarine;">გვარი</label>
+                <input type="text" id="lastname" placeholder="გვარი">
+            </div>
+            <div>
+                <label for="age" style="color: aquamarine;">დაბადების წელი</label>
+                <input type="date">
+            </div>
+            <div>
+                <label for="phone" style="color: aquamarine;">ტელეფონის ნომერი</label>
+                <input type="number" id="phone" placeholder="ტელ. ნომერი">
+            </div>
+            <div>
+                <label for="email" style="color: aquamarine;">Email</label>
+                <input type="email" id="email" placeholder="email@com">
+            </div>
+            <div>
+                <label for="password" style="color: aquamarine;">პაროლი</label>
+                <input type="password" id="password" placeholder="პაროლი" required minlength="8">
+            </div>
+            <div>
+                <label for="gender" style="color: aquamarine;">სქესი</label>
+                <label for="woman" style="color: pink;">ქალი</label>
+                <input type="radio" id="woman" name="gender">
+                <label for="man" style="color: blue;">კაცი</label>
+                <input type="radio" id="man" name="gender">
+                <label for="other">სხვა.</label>
+                <input type="radio" id="other" name="gender">
+            </div>
+            <button type="submit">გაგზავნა</button>
+
+        </form>
+    </div>
+    <a href="../index.html">უკან დაბრუნება</a>
+</body>
+
+</html>
